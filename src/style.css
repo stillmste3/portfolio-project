@@ -1,3 +1,11 @@
-h1 {
+h1,h2 {
         font-family: 'Carter One';
+}
+
+h3,p {
+        font-family: 'Ysabeau Office', sans-serif;
+}
+
+.hero {
+    text-align: center;
 }

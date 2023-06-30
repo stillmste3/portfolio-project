@@ -1,11 +1,28 @@
+:root {
+    --heading-font-family: 'Carter One';
+    --default-font-family: 'Ysabeau Office',
+        sans-serif;
+        --bg-color: #e2d1c3;
+}
+
 h1,h2 {
-        font-family: 'Carter One';
+        font-family: var(--heading-font-family);
 }
 
 h3,p {
-        font-family: 'Ysabeau Office', sans-serif;
+        font-family: var(--default-font-family);
 }
 
 .hero {
     text-align: center;
+    background-color: var(--bg-color);
+    padding: 98px 15px;
+}
+
+h2 {
+    font-weight: 200px;
+}
+
+.button {
+    padding: 15px;
 }

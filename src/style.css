@@ -13,6 +13,22 @@ h3,p {
         font-family: var(--default-font-family);
 }
 
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 45px;
+}
+
+.header img {
+    border-radius: 20px 40px;
+}
+
+.header p {
+    font-size: 23px;
+}
+
 .hero {
     text-align: center;
     background-color: var(--bg-color);
@@ -43,11 +59,28 @@ p {
     .hero {
         padding: 80px 20px;
     }
-img {
-    display: none;
+.about-section {
+    text-align: center;
+    padding: 0;
 }
 .project-decsription {
     padding: 0;
         text-align: center;
 }
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+font-size: 45px;
+}
+
+.header img {
+    border-radius: 20px 40px;
+}
+
+.header p {
+    font-size: 23px;
 }

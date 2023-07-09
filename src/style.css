@@ -43,5 +43,11 @@ p {
     .hero {
         padding: 80px 20px;
     }
-
+img {
+    display: none;
+}
+.project-decsription {
+    padding: 0;
+        text-align: center;
+}
 }

@@ -23,6 +23,11 @@ h2 {
     font-weight: 200px;
 }
 
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
 .button {
     padding: 15px;
 }
@@ -38,5 +43,5 @@ h2 {
     .hero {
         padding: 80px 20px;
     }
-    
+
 }

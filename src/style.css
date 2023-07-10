@@ -13,24 +13,25 @@ h3,p {
         font-family: var(--default-font-family);
 }
 
-.header {
+.content-container {
     text-align: center;
 }
 
-.header h1 {
+.content-container h1 {
     font-size: 45px;
 }
 
-.header h2 {
+.content-container h2 {
     font-size: 20px;
     opacity: 75%;
 }
 
-.header img {
+.content-container img {
     border-radius: 20px 15px 40px;
+    align-items: center;
 }
 
-.header p {
+.content-container p {
     font-size: 23px;
 }
 
@@ -82,19 +83,19 @@ p {
 } 
   }
 
-.header {
+.content-container {
     text-align: center;
 }
 
-.header h1 {
+.content-container h1 {
 font-size: 45px;
 }
 
-.header img {
+.content-container img {
     border-radius: 20px 40px;
     margin-top: 20px;
 }
 
-.header p {
+.content-container p {
     font-size: 23px;
 }

@@ -21,8 +21,13 @@ h3,p {
     font-size: 45px;
 }
 
+.header h2 {
+    font-size: 20px;
+    opacity: 75%;
+}
+
 .header img {
-    border-radius: 20px 40px;
+    border-radius: 20px 15px 40px;
 }
 
 .header p {
@@ -53,21 +58,29 @@ p {
         font-size: 40px;
         line-height: 2;
     }
+
     h2 {
         font-size: 38px;
     }
+
     .hero {
         padding: 80px 20px;
     }
+    
 .about-section {
     text-align: center;
     padding: 0;
 }
+
+#column {
+    width: 100%;
+}
+
 .project-decsription {
     padding: 0;
         text-align: center;
-}
-}
+} 
+  }
 
 .header {
     text-align: center;
@@ -79,6 +92,7 @@ font-size: 45px;
 
 .header img {
     border-radius: 20px 40px;
+    margin-top: 20px;
 }
 
 .header p {
